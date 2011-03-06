@@ -40,15 +40,18 @@ class OperationFactory
     end
 end
 
-a = 5
-b = 3
+print "Enter 1st number: "
+a = gets
+
+print "Enter 2nd number: "
+b = gets
 
 operAdd = OperationFactory.new.create_operate("+")
-operAdd.a = a
-operAdd.b = b
+operAdd.a = Integer(a)
+operAdd.b = Integer(b) 
 operAdd.get_result
 
 operSub = OperationFactory.new.create_operate("-")
-operSub.a = a
-operSub.b = b
+operSub.a = Integer(a)
+operSub.b = Integer(b) 
 operSub.get_result
