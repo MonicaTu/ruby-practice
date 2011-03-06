@@ -2,18 +2,7 @@
 
 class Operation
    
-#    attr_reader :a, :b
     attr_accessor :a, :b
-#    attr_writer :a, :b
-
-# set
-#    def a=(new_a)
-#        @a = new_a
-#    end
-#    
-#    def b=(new_b)
-#        @b = new_b
-#    end
 
     def get_result
         puts "0"
